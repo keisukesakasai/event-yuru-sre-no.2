@@ -1,0 +1,4 @@
+cronjob:
+  name: my-cronjob
+  schedule: "* * * * *"
+  image: nginx:latest

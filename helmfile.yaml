@@ -1,0 +1,6 @@
+releases:
+  - name: my-cronjob
+    namespace: work
+    chart: ./event-yuru-sre-no.2
+    values:
+      - event-yuru-sre-no.2/values.yaml
